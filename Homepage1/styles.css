@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Century, sans-serif;
+}
+
+header {
+  background-color: #D2042D; /* Add a background color */
+  padding: 35px 0;
+}
+
+.mian {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 30px;
+  margin-right: 60px;
+  font-size: 23px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.1s ease; /* Fix transition */
+}
+
+ul li a:hover {
+  background-color: #fff;
+  color: #000000;
+  border: 1px solid #bf3434;
+}
+
+ul li .active a{
+      background-color: #fff;
+      color: #000000;
+}
+
+.logo {
+  position: absolute; /* Ensure it does not interfere with the layout */
+  top: 10px; /* Adjust as needed */
+  left: 25px; /* Adjust as needed */
+}
+
+.logo img {
+  max-width: 110px; /* Set a suitable size for the logo */
+  height: auto;
+}
+
+.logo {
+  position: absolute; 
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center; 
+}
+
+.logo-line {
+  width: 1px;
+  height: 90px; 
+  background-color: white; 
+  margin-left: 10px; 
+}
+
